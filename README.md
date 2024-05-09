@@ -1,0 +1,2 @@
+# leetcode
+we grind leetcode
