@@ -16,3 +16,4 @@ We can take each subarray of size `K` from the array and find out the max sum of
 We can take one `K` sized subarray and calculate its sum from the `0` index to the `K-1` index. We will save this sum to a `max_sum` variable. We will then increase the "left pointer" (the `0` index) and the "right pointer" (`K-1` index) by `1`, and update the `max_sum` variable if it is larger than the current `max_sum`. We will continue this until we get to `N-1`.
 
 The **Sliding Window Technique** uses Approach 2. Let us take a look at the two types of sliding window.
+<hr/>
